@@ -4,9 +4,18 @@
   <title>Reminder</title>
 </head>
 <body>
-  <input type="datetime-local" id="alarmTime" name="alarmTime"/>
-  <button onclick="setAlarm(this)" id="alarmButton">Set Alarm</button>
+  <div>
+    Yoga & Fitness Reminder<br>
+    <input type="datetime-local" id="alarmTime" name="alarmTime"/>
+    <button onclick="setAlarm(this)" id="alarmButton">Set Alarm</button>
+  </div><br>
 
+
+  <div>
+    Food & Nutrition Reminder<br>
+    <input type="datetime-local" id="alarmTime" name="alarmTime"/>
+    <button onclick="setAlarm(this)" id="alarmButton">Set Alarm</button>
+  </div><br>
   <div id="alarmOptions" style="display: none">
     <button onclick="snooze();">Snooze 10 minutes</button>
     <button onclick="stopAlarm();">Ok, Done!</button>

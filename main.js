@@ -1,6 +1,14 @@
 const {app, BrowserWindow} = require('electron');
 const path = require ('path');
 const url = require('url');
+// var mongoose = require('mongoose')
+// 	,Schema = mongoose.Schema
+// 	,ObjectId = Schema.ObjectId;
+
+// mongoose.connect('mongodb://localhost/spineLine',{useMongoClient:true});
+
+// var Reminder = require('../models/reminder')
+//var reminderSchema = mongoose.model('Reminder', reminderSchema);
 
 //init win
 let win;
@@ -33,3 +41,4 @@ app.on('window-all-closed', () => {
 		app.quit();
 	};
 });
+
