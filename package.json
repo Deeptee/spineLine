@@ -1,0 +1,16 @@
+{
+  "name": "spineline",
+  "version": "1.0.0",
+  "description": "A background desktop app for tracking your back.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Dipti Gautam",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^3.0.9",
+    "electron-tabs": "^0.9.4",
+    "jquery": "^3.3.1"
+  }
+}
